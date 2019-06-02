@@ -12,4 +12,4 @@
 
 * __Obs__:
     * __delays__ are added to simulate the time that takes to complete certain activities;
-    * due to the __delays__, it is very easy to see how having only one kitchen counter becomes a huge __bottleneck__, specially when increasing the amount of chefs and workers;
+    * due to the __delays__, it is very easy to see how having only one kitchen counter becomes a huge __bottleneck__, specially when increasing the amount of ___chefs___ and ___workers___;
