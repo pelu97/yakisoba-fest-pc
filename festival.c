@@ -114,6 +114,9 @@ void* chef(void* arg){
     int dish;
     printf("Chef %d criado\n", id);
     pthread_barrier_wait(&barrier_start);
+    if(id == 0){
+        pthread_barrier_destroy(&barrier_start);
+    }
     printf("Chef %d - START\n", id);
 
 
