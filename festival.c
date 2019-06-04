@@ -1,3 +1,7 @@
+/* Universidade de Brasília                 */
+/* Programação Concorrente Turma A - 2019/1 */
+/* Pedro Lucas Pinto Andrade - 160038316    */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
