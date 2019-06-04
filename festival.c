@@ -1,3 +1,7 @@
+/* Universidade de Brasília                 */
+/* Programação Concorrente Turma A - 2019/1 */
+/* Pedro Lucas Pinto Andrade - 160038316    */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
@@ -114,6 +118,9 @@ void* chef(void* arg){
     int dish;
     printf("Chef %d criado\n", id);
     pthread_barrier_wait(&barrier_start);
+    if(id == 0){
+        pthread_barrier_destroy(&barrier_start);
+    }
     printf("Chef %d - START\n", id);
 
 
